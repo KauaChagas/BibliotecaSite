@@ -6,22 +6,28 @@ body{
 }
 
 header{
-    margin:0;
     background-color: #5b1f00;
-    color:#874421;
+    color:#ffffff;
     display:flex;
 }
 
 header h1{
-    padding: 20px;
+    margin: 0;
+    padding:20px;
 }
 
-.menu{
+div.sigla{
+    display: flex;
+    width: 50vw;
+    height: auto;
+}
+
+.elementosMenu{
     display:flex;
-    flex-wrap: wrap;
-    list-style:none;
 }
 
-.menu li{
-    padding:5px;
+.elementosMenu li{
+    display: flex;
+    list-style: none;
+    margin: 5px;
 }
