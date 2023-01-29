@@ -93,6 +93,15 @@ body{
     color: #ffffff;
 }
 
+a{
+    color:#5b1f00;
+    text-decoration: none;
+}
+
+a:hover{
+    color:#ffffff;
+}
+
 .loginD{
     width: 50vw;
     height: 100vh;

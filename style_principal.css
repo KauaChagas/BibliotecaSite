@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body{
+    margin: 0;
+    font-family: Poppins;
+}
+
+header{
+    background-color: #5b1f00;
+    color:#ffffff;
+    display:flex;
+    justify-content: space-between;
+    box-shadow: 0px 0px 15px #5b1f00;
+}
+
+header h1{
+    margin: 0;
+    padding:20px;
+}
+
+
+.elementosMenu{
+    display: flex;
+}
+
+.menu li{
+    margin: 15px;
+    list-style: none;
+    text-transform: uppercase;
+    font-style: normal;
+}
+
+.buscar{
+    display: flex;
+    align-items: center;
+}
+
+.buscar input{
+    width: 20vw;
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+    box-shadow: 0px 0px 15px #b4764f;
+    color:#5b1f00;
+    font-weight: 600;
+}
+
+.buscar input::placeholder{
+    font-family: Poppins;
+    font-size: 800;
+    color:#5b1f00;
+}
+
+.msg{
+    margin-left: 2vw;
+    margin-bottom: 80px;
+    color:#5b1f00;
+    text-shadow: 0px 0px 40px #b4764f;
+    font-style: normal;
+}
+
+.maisVendidos{
+    display: flex;
+    gap: 3rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.livro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-style: normal;
+    color:#5b1f00;
+}
+
+.livro img{
+    width: 150px;
+    height: auto;
+}
+
+.livro img:hover{
+    transform: translateY(-5px);
+}
+
+.livro h3{
+    margin-bottom: 0px;
+}
