@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins";
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #5b1f00;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+    width: 100%;
+    background-color: #874421;
+    padding: 50px;
+}
+
+.form-header {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: column;
+}
+
+.login-button button a {
+    text-decoration: none;
+    font-weight: 500;
+    color: #fff;
+}
+
+.input-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.input-box {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 35px;
+}
+
+.input-box input{
+    width: 100%;
+    margin-top: 5px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px #0000001c;
+    font-size: 0.8rem;
+    box-sizing: border-box;
+}
+
+.input-box input:hover {
+    background-color: #eeeeee75;
+}
+
+.input-box input:focus-visible {
+     outline: 1px solid #874421; /*tira borda do input quando aperta */
+}
+
+.input-box label{
+    font-size: 13px;
+    font-weight: 600;
+    color: #000000c0;
+}
+
+.gender-inputs h6{
+    font-size: 20px;
+    font-weight: 600;
+    color: #000000c0;
+}
+
+.input-box input::placeholder {
+    color: #000000be;
+}
+
+.gender-input {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin: 2px;
+    margin-bottom: 2px;
+}
+
+.gender-input label {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #000000c0;
+}
+
+.continue-button button {
+    width: 100%;
+    margin-top: 40px;
+    border: none;
+    background-color: #874421;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.continue-button:hover {
+    background-color: #874421;
+}
+
+.continue-button button a {
+    text-decoration: none;
+    font-size: 0.93rem;
+    font-weight: 500;
+    color: #fff;
+}
