@@ -71,41 +71,79 @@ header a{
     cursor: pointer;
 }
 
-.msg{
-    margin-left: 2vw;
-    margin-bottom: 80px;
-    color:#5b1f00;
-    text-shadow: 0px 0px 40px #b4764f;
-    font-style: normal;
-}
-
-.maisVendidos{
+.esquerda{
+    width: 50vw;
+    height: auto;
     display: flex;
-    gap:2rem;
-    flex-wrap: wrap;
-    justify-content: center;
-    box-sizing: border-box;
-}
-
-.livro{
-    display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-style: normal;
-    color:#5b1f00;
-    box-sizing: border-box;
 }
 
-.livro img{
-    width: 150px;
+.centro{
+    display: flex;
+}
+
+.esquerda img{
+    width: 400px;
+    height: auto;
+    margin: 40px;
+    box-shadow: 0px 0px 20px #5b1f00;
+}
+
+.esqueda{
+    width: 50vw;
     height: auto;
 }
 
-.livro img:hover{
-    transform: translateY(-5px);
+.direta{
+    width: 50vw;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.livro h3{
-    margin-bottom: 0px;
+.caixa{
+    width: 60%;
+    height: 70%;
+    border-radius: 30px;
+    padding: 10px 10px;
+    background-color: #5b1f00;
+    box-shadow: 0px 0px 20px #5b1f00;
+    color:#ffffffa1;
+}
+
+.caixa h2, h4, p, button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.caixa h4{
+    margin: 0;
+    font-size: 70px;
+}
+
+.caixa p{
+    margin: 20px;
+}
+
+.caixa button{
+    width: 80%;
+    height: 10%;
+    border-radius: 6px;
+    border: none;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 15%;
+    margin-left: 10%;
+    background-color: #ffffffe7;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #5b1f00;
+    cursor: pointer;
+}
+
+.caixa button:hover{
+    transform: scale(0.9);
 }
