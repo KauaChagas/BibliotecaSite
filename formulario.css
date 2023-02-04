@@ -22,6 +22,7 @@ body {
     width: 100%;
     background-color: #874421;
     padding: 50px;
+    box-shadow: 0px 0px 15px #874421;
 }
 
 .form-header {
@@ -54,7 +55,7 @@ body {
     padding: 10px 20px;
     border: none;
     border-radius: 10px;
-    box-shadow: 1px 1px 6px #0000001c;
+    box-shadow: 0px 0px 4px #5b1f00;
     font-size: 0.8rem;
     box-sizing: border-box;
 }
@@ -68,7 +69,7 @@ body {
 }
 
 .input-box label{
-    font-size: 13px;
+    font-size: 15px;
     font-weight: 600;
     color: #000000c0;
 }

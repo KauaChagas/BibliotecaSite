@@ -135,7 +135,7 @@ header a{
 }
 
 .rodape{
-    position: absolute;
+    position:static;
     display: flex;
     bottom:0px;
     float: inline-start;
